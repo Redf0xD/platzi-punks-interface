@@ -1,6 +1,6 @@
 export const PlatziPunksArtifact = {
   address: {
-    4: import.meta.env.RINKEBY,
+    4: import.meta.env.VITE_RINKEBY,
   },
   abi: [
     {
