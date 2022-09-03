@@ -1,5 +1,5 @@
 import { Home } from "./pages/home/";
-import { Gallery } from "./pages/gallery";
+import { Punks } from "./pages/punks";
 import { Routes, Route } from "react-router-dom";
 import MainLayout from "./layouts/main";
 
@@ -8,7 +8,7 @@ function App() {
     <MainLayout>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/punks" element={<Gallery />} />
+        <Route path="/punks" element={<Punks />} />
       </Routes>
     </MainLayout>
   );
